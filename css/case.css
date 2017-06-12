@@ -1,0 +1,19 @@
+.banner{ width:100%; height:330px;}
+.txt{width:1000px; padding-top:80px; margin:0 auto;}
+.txt h1{font-size:32px; color:#1ab4c3; line-height:32px; font-weight:normal;text-align:center; }
+.txt p{font-size:14px; color:#c3c3c3; line-height:34px; text-transform:uppercase; margin-bottom:6px;text-align:center; }
+.list{overflow:hidden; width:1000px; margin:0 auto;}
+.list dl{overflow:hidden; width:470px; float:left; margin-top:50px; }
+.list dl:nth-child(odd){ margin-right:60px;}
+.list dl dt{height:282px; width:100%;}
+.list dl dt img{max-height:282px; max-width:470px;}
+.list dl dd{ overflow:hidden; width:100%; color:#2e2e2e;}
+.list dl dd h2{ font-size:16px;  font-weight:normal; line-height:20px; padding:20px 0 10px 0;}
+.list dl dd h2 a:hover{ color:#1ab4c3;}
+.list dl dd p{font-size:12px; color:#666; line-height:24px;}
+.btn{width:258px; margin:0 auto; margin-top:54px;}
+.btn a{display:inline-block; height:32px; width:112px; background:#FFF; border:1px solid #dbdbdb; border-radius:2px; color:#333; line-height:32px; text-align:center; transition:all .3s ease-in;}
+.btn a:hover{background:#1ab4c3; color:#FFF;}
+.btn a:nth-child(1){margin-right:30px;}
+
+.box1{width:100%; height:308px; margin-top:77px;}

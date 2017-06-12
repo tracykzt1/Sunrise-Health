@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/commmon.css">
+<link rel="stylesheet" type="text/css" href="css/europe.css">
+<title>欧洲医疗</title>
+</head>
+
+<body>
+<header>
+  <div class="nav">
+    <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="japan.html">日本医疗</a></li>
+      <li><a class="first" href="eurp.html">欧洲医疗</a></li>
+      <li><a href="#">美国医疗</a></li>
+      <li><a href="case.html">医疗案例</a></li>
+      <li><a href="#">商业合作</a></li>
+      <li><a href="#">关于我们</a></li>
+    </ul>
+  </div>  
+</header>
+<div class="banner1" style="background: url(images/Europe/banner01.png) no-repeat center top #e2ebf0;"></div>
+<div class="box2">
+  <div class="txt"><h1>海外医疗</h1><p>Overseas medical</p></div>
+  <div class="list">
+    <dl>
+      <dt><img src="images/Europe/pic01.png" height="168" width="168"></dt>
+      <dd><h2>基因检测</h2></dd>
+    </dl>
+    <dl>
+      <dt><img src="images/Europe/pic02.png" height="168" width="168"></dt> 
+      <dd><h2>疗养康复</h2></dd>
+    </dl>
+    <dl>
+      <dt><img src="images/Europe/pic03.png" height="168" width="168"></dt>
+      <dd><h2>抗衰老再生</h2></dd>
+    </dl>
+    <dl>
+      <dt><img src="images/pic2.png" height="168" width="168"></dt>
+      <dd><h2>糖尿病治疗</h2></dd>
+    </dl>
+  </div>
+</div>
+<div class="banner2" style="background: url(images/Europe/banner02.png) no-repeat center top #f0f3f6;"></div>
+
+<div class="box3">
+  <div class="txt"><h1>就诊环境</h1><p>Treatment environment</p></div>
+  <div class="img">
+    <div class="left">
+      <img src="images/japan/pic21.jpg" height="380" width="330">
+      <a href="#"></a>   
+    </div>
+    <div class="con">
+      <div class="s1"><img src="images/japan/pic22.jpg" height="190" width="335"><a href="#"></a></div>
+      <div class="s1"><img src="images/japan/pic23.jpg" height="190" width="335"><a href="#"></a></div>  
+    </div>
+    <div class="right">
+      <div class="s1"><img src="images/japan/pic24.jpg" height="190" width="335"><a href="#"></a></div>
+      <div class="s1"><img src="images/japan/pic25.jpg" height="190" width="335"><a href="#"></a></div>
+    </div>
+  </div>
+</div>
+
+ <div class="box4">
+  <div class="txt"><h1>合作医院</h1><p>Cooperative hospital</p></div>
+  <div class="cooper">
+    <div class="left"><img src="images/japan/pic31.jpg" height="170" width="280"></div>
+    <div class="con">
+      <h2>国际医疗福祉大学三田医院</h2>
+      <p>是日本历史悠久、实力雄厚的一家综合医院，从1933年成立开始，形成了如今的占地7000多平米，集治疗、预防、体检等为一体的综合诊疗中心，拥有各项资质认定40多项。</p>
+      <dl>
+        <dt><img src="images/japan/user01.jpg" width="50" height="50"></dt>
+        <dd>王女士：三田医院的服务真的没的说</dd>
+      </dl>
+    </div>
+    <div class="right">
+      <h3>￥15000/天</h3>
+      <h3>20天</h3>
+      <a href="#"  id="book1">立即预订</a>
+    </div>
+  </div>
+  <div class="cooper">
+    <div class="left"><img src="images/japan/pic32.jpg" height="170" width="280"></div>
+    <div class="con">
+      <h2>癌研有明医院</h2>
+      <p>癌研有明医院作为癌症专科医院，拥有世界上尚为数不多的先进诊断和治疗技术。根据患者的病情采用集学治疗，即组合采用外科治疗、放射治疗、化疗等诊治各种类型的癌症，治疗和诊断技术水准都处于世界领先地位。</p>
+      <dl>
+        <dt><img src="images/japan/user02.jpg" width="50" height="50"></dt>
+        <dd>王女士：三田医院的服务真的没的说</dd>
+      </dl>
+    </div>
+    <div class="right">
+      <h3>￥15000/天</h3>
+      <h3>20天</h3>
+      <a href="#"  id="book2">立即预订</a>
+    </div>
+  </div>
+ </div>
+ 
+ <div id="box">
+  <ul id="ulbg">
+    <li><h2>立即预订</h2></li>
+    <li><input type="text" placeholder="姓名"></li>
+    <li><input type="text" placeholder="电话"></li>
+    <li><input type="text" placeholder="邮箱"></li>
+    <li><textarea placeholder="您的留言"></textarea></li>
+    <li><input  class="btn" type="submit" value="提交预定"></li>
+  </ul>
+  <span><i id="close"></i></span>
+</div>
+
+ <script type="text/javascript">
+
+window.onload=function(){
+	
+
+ var a1= document.getElementById("book1");
+ var a2= document.getElementById("book2");
+ var i= document.getElementById("close");
+ var div= document.getElementById("box");
+ var ul= document.getElementById("ulbg");
+ a1.onclick=show;
+ a2.onclick=show;
+ i.onclick=hide;
+function show(){
+    div.style.display="block";
+    ul.style.display="block";
+
+};
+function hide(){
+    div.style.display="none";
+    ul.style.display="none";
+};
+} 
+</script>
+
+<div class="box6" style="background: url(images/Europe/banner03.png) no-repeat center top #fff;"></div>
+<footer>
+  <div class="box5">
+    <div class="nav_bottom">
+      <p>
+        <a href="#">关于我们</a><span></span>
+        <a href="#">商业合作</a><span></span>
+        <a href="#">联系我们</a><span></span>
+        <a href="#">加入我们</a>
+      </p>
+      <p>Copyright © 北京旭和科技. All Rights Reserved. 京ICP备123456789号</p>
+    </div>
+    <dl>
+      <dt><em></em></dt>
+      <dd><p>客服热线</p><i>400-880-6688</i></dd>
+    </dl>
+  </div>
+</footer>
+<div class="fixed">
+  <a href="#"><img src="images/rocket.png" height="40" width="40"></a>
+</div>
+</body>
+</html>

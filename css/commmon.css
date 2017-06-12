@@ -1,0 +1,41 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; -webkit-font-smoothing:antialiased;  }
+
+html{ -webkit-text-size-adjust:none;}
+body{ font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:12px; background:#fff;  -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;  font-smoothing: antialiased;  color:#333; }
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0; /*-webkit-appearance: none;*/}
+body{ font-family:"微软雅黑";}
+img{ border:none; vertical-align:middle; -ms-interpolation-mode: bicubic; max-width:100%;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#444; outline:none; }
+
+input:focus,textarea:focus{ outline:none; }
+
+header{width:100%; background:#FFF; overflow:hidden; min-width:1000px;}
+header .nav{width:1000px; margin:0 auto; overflow:hidden;}
+header .nav .logo{float:left; margin:22px 0 25px 0;}
+header .nav ul{float:right; position:relative;}
+header .nav ul li{float:left; font-size:14px; line-height:90px;}
+header .nav ul li a{display:inline-block; padding:0 27px; }
+header .nav ul li a:hover{background:#fff; color:#1ab4c3;  transition:background 1s linear; }
+header .nav ul li a:hover{ background:#1ab4c3;color:#FFF;}
+header .nav ul li a.first{padding:0 27px; background:#1ab4c3; color:#FFF; margin-right:0;}
+
+
+
+footer{width:100%;overflow:hidden; background:#1ab4c3;min-width:1000px;}
+footer .box5{width:1000px; margin:0 auto; overflow:hidden;}
+footer .box5 .nav_bottom{ float:left; margin:55px 0 68px 0;}
+footer .box5 .nav_bottom p{ font-size:12px; color:#FFF; line-height:24px;}
+footer .box5 .nav_bottom p a{color:#FFF;}
+footer .box5 .nav_bottom p a:hover{ text-decoration:underline;}
+footer .box5 .nav_bottom p span{display:inline-block; height:12px; width:1px; background:#fff; margin:0 14px; vertical-align:-2px;}
+footer .box5 dl{float:right; width:170px; margin-top:55px;}
+footer .box5 dl dt{ float:left;}
+footer .box5 dl dt em{background:url(../images/icon.png) no-repeat; height:34px; width:34px; display:inline-block;
+background-position:-21px 0; margin-right:5px;}
+
+footer .box5 dl dd p{color:#FFF; font-style:italic;}
+footer .box5 dl dd i{font-size:16px; line-height:24px; color:#FFF;}
+
+.fixed{height:40px; width:40px; position:fixed; bottom:80px; right:40px; z-index:100;}
+.fixed a{display:block; height:40px; width:40px;}

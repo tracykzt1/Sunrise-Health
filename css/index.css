@@ -1,0 +1,67 @@
+
+
+
+#DB_tab16 {width:100%;height:585px;position:relative;overflow:hidden;background:#fff;min-width:1000px;}
+#DB_tab16 .DB_img{position:relative;width:100%; height:560px;}
+#DB_tab16 .DB_img li{position:absolute;width:100%;height:100%;}
+#DB_tab16 .DB_img li a{display:block;width:100%;height:100%;}
+
+#DB_tab16 .DB_btn{position:absolute; bottom:0px;width:100%;text-align:center; }
+#DB_tab16 .DB_btn li{display:inline;cursor:pointer;margin:0 3px}
+#DB_tab16 .DB_dirBtn{position:absolute;width:1060px; height:0; top:140px; left:50%; margin-left:-530px;}
+#DB_tab16 .DB_dirBtn .DB_prev{position:absolute;left:0px;cursor:pointer;}
+#DB_tab16 .DB_dirBtn .DB_next{position:absolute;right:0px;cursor:pointer;}
+
+
+.box1{width:1000px; overflow:hidden; margin:0 auto; clear:both;}
+.box1 dl{ height:185px;  margin-top:82px;}
+.box1 dl dt{float:left; margin-left:39px;}
+.box1 dl dd{float:right; width:626px;}
+.box1 dl dd h1{font-weight:normal; font-size:16px; color:#c3c3c3; margin-bottom:13px; text-transform:uppercase; }
+.box1 dl dd h1 span{ font-size:32px; color:#1ab4c3; line-height:32px; margin-right:12px; font-family:"微软雅黑";}
+.box1 dl dd p{text-align:left; font-size:14px; line-height:28px; color:#666;}
+.box1 dl dd a{display:block; height:28px; width:90px; background:#1ab4c3; color:#FFF; text-align:center; line-height:28px; margin-top:10px; transition:background 0.5s}
+.box1 dl dd a i{ display:inline-block; height:12px; width:12px; background:url(../images/icon.png) no-repeat; background-position:0 0; margin-right:8px; vertical-align:-2px;}
+.box1 dl dd a:hover{ background:#ee6420;}
+.line{height:1px; width:100%; background:#e7eaef; clear:both; min-width:1000px;}
+
+.box2{width:1000px; margin:0 auto; overflow:hidden;}
+.box2 .txt{text-align:center; padding:80px 0 60px 0;}
+.box2 .txt h1{font-size:32px; color:#1ab4c3; line-height:32px; font-weight:normal; font-family:"微软雅黑"; }
+.box2 .txt p{font-size:16px; color:#c3c3c3; line-height:34px; text-transform:uppercase; }
+.box2 .list{overflow:hidden; padding-left:55px;}
+.box2 .list dl{overflow:hidden; width:216px; float:left; margin-right:122px;}
+.box2 .list dl:nth-last-child(1){ margin-right:0;}
+.box2 .list dl dt{height:168px; width:100%; margin-left:0; padding-left:26px;}
+.box2 .list dl dt img{max-height:168px; max-width:168px;  border-radius:50%;}
+.box2 .list dl dd { overflow:hidden; width:100%; margin-top:10px;}
+.box2 .list dl dd a h2{font-weight:normal; font-size:18px; color:#2e2e2e; line-height:38px; text-align:center; -webkit-transition:color 0.5s ease-in;}
+.box2 .list dl dd p{color:#666; font-size:12px; line-height:22px;}
+.box2 .list dl dd a h2:hover{color:#1ab4c3;}
+
+.box3{width:100%; height:671px; background:#f0f3f6; margin-top:80px;min-width:1000px;}
+.box3 .txt{text-align:center; padding:60px 0 50px 0;}
+.box3 .txt h1{font-size:32px; color:#1ab4c3; line-height:32px; font-weight:normal; font-family:"微软雅黑"; }
+.box3 .txt p{font-size:16px; color:#c3c3c3; line-height:34px; text-transform:uppercase; }
+.box3 .img{width:1000px; margin:0 auto;overflow:hidden; }
+.box3 .img .left{overflow:hidden; float:left; position:relative;}
+.box3 .img .left a {display:inline-block; height:380px; width:330px;background:rgba(0,0,0,0); position:absolute; left:0; top:0; z-index:100; transition: background .5s ease-in;}
+.box3 .img .left a:hover{ background:rgba(0,0,0,0.3);}
+.box3 .img .left img{max-height:380px; max-width:330px;}
+.box3 .img .con{overflow:hidden; float:left;}
+.box3 .img .right{width:335px; overflow:hidden; float:right;}
+.box3 .img .s1{position:relative;}
+.box3 .img .s1 a {display:inline-block; height:190px; width:335px; background:rgba(0,0,0,0); position:absolute; left:0; top:0; z-index:100;}
+.box3 .img .s1 a:hover{ background:rgba(0,0,0,0.3);transition: background .5s ease-in;}
+
+.box4{ width:1000px; margin:0 auto; overflow:hidden;}
+.box4 dl{ width:920; height:376px; padding:85px 0 0 80px;}
+.box4 dl dd{width:520px; height:286px; float:left; padding-top:90px; margin-right:70px;}
+.box4 dl dt{float:left;}
+.box4 dl dd h1{font-weight:normal; font-size:16px; color:#c3c3c3; margin-bottom:13px; text-transform:uppercase; }
+.box4 dl dd h1 span{ font-size:32px; color:#1ab4c3; line-height:32px; margin-right:12px; font-family:"微软雅黑";}
+.box4 dl dd p{text-align:left; font-size:14px; line-height:28px; color:#666;}
+
+
+
+
